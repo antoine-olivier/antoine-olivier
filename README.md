@@ -5,7 +5,7 @@ I founded DiscoverIA and Kepler Circle. I work on auto-research, the approach An
 ## Projects
 
 - **DiscoverIA** educates people about AI by tracking the scientific results that humans obtain with it. Each result carries a dated, sourced status: verified in Lean, peer-reviewed, under review, disputed or withdrawn.
-- **Kepler Circle** (non-profit, in formation) is where a person and an AI do research together, in the line of computer-assisted proofs such as Flyspeck.
+- **Kepler Circle** (non-profit, in formation) is where a person and an AI do research together, like the computer-checked proof of Kepler's sphere-packing conjecture ([Flyspeck](https://github.com/flyspeck/flyspeck), 2014).
 
 ## Results and contributions
 
