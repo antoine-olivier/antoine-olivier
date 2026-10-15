@@ -1,6 +1,6 @@
 # Antoine Olivier
 
-I founded DiscoverIA and Kepler Circle. I work on auto-research, the approach Andrej Karpathy named in March 2026 for machine learning, which I apply to all sciences, starting with mathematics: people and AI agents doing research together, with results checked before they are published.
+I founded DiscoverIA and Kepler Circle. I work on autoresearch, the approach Andrej Karpathy named in March 2026 for machine learning, which I apply to all sciences, starting with mathematics: people and AI agents doing research together, with results checked before they are published.
 
 ## Projects
 
