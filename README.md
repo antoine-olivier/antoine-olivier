@@ -9,8 +9,16 @@ I founded DiscoverIA and Kepler Circle. I work on autoresearch, the approach And
 
 ## Results and contributions
 
-- **A(33,8,8) ≥ 1806** and **A(40,8,8) ≥ 3687**, two new lower bounds for binary constant-weight codes (distance 8, weight 8, lengths 33 and 40), listed in [Andries Brouwer's table](https://aeb.win.tue.nl/codes/Andw.html). Henry Cohn's [kissing number table](https://cohn.mit.edu/kissing-numbers) cites the first for the current lower bound in dimension 33 (364,352).
-- **Integer multiplication:** independent replays of the κ verifiers for the community project [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds).
+My [research register](https://github.com/antoine-olivier/research-register) lists my results with their status and sources, including those since beaten and the negative ones. State on 17 November 2026:
+
+- **17 entries accepted** by a table or its maintainer: lower bounds for constant-weight codes in Andries Brouwer's table, spherical codes in Henry Cohn's table, terms of two OEIS sequences, and a correction to an exoplanet catalogue.
+- **6 entries better than the table, not yet listed:** cluster energies sent to the Cambridge Cluster Database.
+- **39 entries submitted** to table maintainers, 38 of them crossing numbers sent to one table.
+- **15 entries since beaten** by other authors.
+
+**Integer multiplication:** I re-ran verifier programs from four pull requests of the community project [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds); its CONTRIBUTORS.md credits the work.
+
+[antoine-olivier.com](https://antoine-olivier.com/) presents the main results with their data and checking programs.
 
 ## How I work
 
