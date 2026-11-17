@@ -11,9 +11,9 @@ I founded DiscoverIA and Kepler Circle. I work on autoresearch, the approach And
 
 My [research register](https://github.com/antoine-olivier/research-register) lists my results with their status and sources, including those since beaten and the negative ones. State on 17 November 2026:
 
-- **17 entries accepted** by a table or its maintainer: lower bounds for constant-weight codes in Andries Brouwer's table, spherical codes in Henry Cohn's table, terms of two OEIS sequences, and a correction to an exoplanet catalogue.
+- **20 entries accepted** by a table or its maintainer: lower bounds for constant-weight codes in Andries Brouwer's table, spherical codes and stealthy configurations in Henry Cohn's tables, terms of two OEIS sequences, and a correction to an exoplanet catalogue.
 - **6 entries better than the table, not yet listed:** cluster energies sent to the Cambridge Cluster Database.
-- **39 entries submitted** to table maintainers, 38 of them crossing numbers sent to one table.
+- **54 entries submitted** to table maintainers, among them 38 crossing numbers sent to one table and 15 errata sent to the NASA Exoplanet Archive.
 - **15 entries since beaten** by other authors.
 
 **Integer multiplication:** I re-ran verifier programs from four pull requests of the community project [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds); its CONTRIBUTORS.md credits the work.
