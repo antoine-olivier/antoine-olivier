@@ -1,25 +1,22 @@
 # Antoine Olivier
 
-I founded DiscoverIA and Kepler Circle. I work on autoresearch, the approach Andrej Karpathy named in March 2026 for machine learning, which I apply to all sciences, starting with mathematics: people and AI agents doing research together, with results checked before they are published.
+Independent researcher. I work on autoresearch, the approach Andrej Karpathy named in March 2026 for machine learning, where AI agents run the experiments. I apply it across the sciences: I direct the agents, and results are checked before they are published.
 
-## Projects
+## Selected results
 
-- **[DiscoverIA](https://discoveria.ai/en/)** educates people about AI by tracking the scientific results that humans obtain with it. Each result carries a dated, sourced status: verified in Lean, peer-reviewed, under review, disputed or withdrawn.
-- **[Kepler Circle](https://keplercircle.org/)** (non-profit, in formation) is where a person and an AI do research together, like the computer-checked proof of Kepler's sphere-packing conjecture ([Flyspeck](https://github.com/flyspeck/flyspeck), 2014).
+- **Constant-weight codes:** lower bounds accepted in [Andries Brouwer's table](https://aeb.win.tue.nl/codes/Andw.html).
+- **Spherical codes:** entries credited in the [spherical-codes table](https://spherical-codes.org/).
+- **Stealthy configurations:** periodic configurations in dimensions 18, 28 and 30, added by Henry Cohn to his [table of stealth radii](https://cohn.mit.edu/stealth).
+- **OEIS and exoplanets:** new terms of [A277203](https://oeis.org/A277203) and [A321911](https://oeis.org/A321911), and a correction to an [independent exoplanet catalogue](https://github.com/eumemic/exoplanets), acknowledged by its maintainer.
 
-## Results and contributions
+My [research register](https://github.com/antoine-olivier/research-register) lists my results with their status and, where one exists, their public source, including those since beaten and the negative ones.
 
-My [research register](https://github.com/antoine-olivier/research-register) lists my results with their status and sources, including those since beaten and the negative ones. State on 17 November 2026:
+## Also
 
-- **20 entries accepted** by a table or its maintainer: lower bounds for constant-weight codes in Andries Brouwer's table, spherical codes and stealthy configurations in Henry Cohn's tables, terms of two OEIS sequences, and a correction to an exoplanet catalogue.
-- **6 entries better than the table, not yet listed:** cluster energies sent to the Cambridge Cluster Database.
-- **54 entries submitted** to table maintainers, among them 38 crossing numbers sent to one table and 15 errata sent to the NASA Exoplanet Archive.
-- **15 entries since beaten** by other authors.
+- **Integer multiplication:** I re-ran verifier programs from four pull requests of a community project on integer multiplication bounds; its [contributors list](https://github.com/CrocSwap/integer-mult-bounds/blob/main/CONTRIBUTORS.md) credits the work.
 
-**Integer multiplication:** I re-ran verifier programs from four pull requests of the community project [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds); its CONTRIBUTORS.md credits the work.
+## Further reading
 
-[antoine-olivier.com](https://antoine-olivier.com/) presents the main results with their data and checking programs.
-
-## How I work
-
-AI agents propose ideas, try to break them and run the computations. My pipeline combines certified computation (exact or interval arithmetic), checks in the Lean proof assistant where a formal proof applies, and a hostile review. Tools: Claude and Codex.
+- [How I work](https://github.com/antoine-olivier/antoine-olivier/blob/main/how-i-work.md): AI agents, certified computation, second checkers and hostile review.
+- [antoine-olivier.com](https://antoine-olivier.com/): the main results.
+- Early-stage projects: [DiscoverIA](https://discoveria.ai/en/) and [Kepler Circle](https://keplercircle.org/).
