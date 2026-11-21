@@ -20,3 +20,4 @@ My [research register](https://github.com/antoine-olivier/research-register) lis
 - [How I work](https://github.com/antoine-olivier/antoine-olivier/blob/main/how-i-work.md): AI agents, certified computation, second checkers and hostile review.
 - [antoine-olivier.com](https://antoine-olivier.com/): the main results.
 - Early-stage projects: [DiscoverIA](https://discoveria.ai/en/) and [Kepler Circle](https://keplercircle.org/).
+- [AZERTY Global](https://azerty.global/): an improved AZERTY, free and open source, co-founded in 2017 with Robert Hodge and developed by me since 2018.
