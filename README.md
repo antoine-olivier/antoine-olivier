@@ -18,7 +18,7 @@ Independent researcher. I work on AI safety, runtime control, and verifiable mat
 
 ## Software
 
-- **[AZERTY Global](https://azerty.global/)** ([AMCF-asso/azerty-global-app](https://github.com/AMCF-asso/azerty-global-app)): Open-source French keyboard layout for Windows, macOS, and Linux (**3,530 Microsoft Store installations**, Mar 23 to Nov 23, 2026). Co-founded in 2017 with Robert Hodge; developed by me since 2018; president of AMCF. Current .NET 10 app rewritten with AI agents under my supervision.
+- **[AZERTY Global](https://azerty.global/)** ([AMCF-asso/azerty-global-app](https://github.com/AMCF-asso/azerty-global-app)): Open-source French keyboard layout for Windows, macOS, and Linux (**3,530 Microsoft Store installations**, Mar 23 to Nov 23, 2026). Created and developed by Antoine Olivier (thanks to Robert Hodge for the initial 2017 versions); president of AMCF. Current .NET 10 app rewritten with AI agents under my supervision.
 
 ## Links
 
