@@ -1,23 +1,25 @@
 # How I work
 
-AI agents propose ideas, try to break them and run the computations. I direct the work and I am responsible for it; no AI system is an author.
+I design the questions, protocols, benchmarks, and checks; AI agents write most of the code and run the experiments under my direction. I am responsible for every published claim; no AI system is an author.
 
-## The checks I use
+## Verification layers
 
-Not every result goes through every check; where a check is recorded, the [research register](https://github.com/antoine-olivier/research-register) names it.
+Not every project uses every check; each study repository and the [research register](https://github.com/antoine-olivier/research-register) states exactly which checks ran and what remains unverified.
 
-- **Certified computation:** exact or interval arithmetic, so a reported value does not rest on floating-point rounding.
-- **Second checker:** an independent program checks the result again.
-- **Hostile review:** a separate reviewer tries to break the claim before it is published.
+- **Pre-registered protocols and sealed corpora:** benchmark files and analysis rules are frozen and hashed before inference runs (any post-hoc redo is declared explicitly).
+- **Exact or interval arithmetic:** mathematical bounds are verified in exact integer, exact rational, or interval arithmetic, not floating-point rounding.
+- **Independent checkers and replay scripts:** a separate program (often written by another model family) or public replay script re-computes the counts and bounds from raw data.
+- **Cross-vendor hostile review:** a fresh reviewer from another model family tries to break the claims, scopes, and numbers before publication.
 
 ## Where results go
 
-A result usually goes first to the table or the maintainer that keeps the reference: Andries Brouwer's table of constant-weight codes, the spherical-codes table, the OEIS, an exoplanet catalogue. The register then records its status, from "accepted" to "since beaten" or "negative".
+- **AI safety and control:** public GitHub repositories with protocols, anonymized or synthetic sealed corpora, raw score logs, and replay scripts (`code-oversight-bench`, `underreported-refusals-pilot`, `sleight-bench-open-weights-monitor`).
+- **Mathematics and reference tables:** submitted directly to reference table maintainers (Andries Brouwer's table, Henry Cohn's spherical-codes and stealth tables, OEIS, catalog maintainers) and archived on Zenodo. Every entry, including superseded bounds and negative findings, is tracked in [research-register](https://github.com/antoine-olivier/research-register).
 
 ## Tools
 
-- **Claude Code** (Claude Opus 5.5): the agent that writes the code and runs the computations under my direction.
-- **Codex** (GPT-6 Astra): second agent and reviewer.
-- **OpenRouter:** the best Gemini, Muse and Grok models for hostile review, and DeepSeek V4.1 Flash, which wrote second checkers for the code tables and the cluster energies.
+- **Coding agents:** Claude Code, Google Antigravity, and Codex under deterministic hook-based guards.
+- **Local inference:** Ollama and PyTorch/Transformers on a consumer GPU (RTX 3070 8 GB) and Colab GPUs for open-weights monitor evaluations.
+- **Cross-vendor verification:** independent model families (Claude, GPT/Codex, Gemini, DeepSeek) used across projects for blind coding, second checkers, and adversarial review (each repo states which families ran on that study).
 
 [Back to the profile](https://github.com/antoine-olivier)
